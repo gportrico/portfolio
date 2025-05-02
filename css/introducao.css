@@ -1,0 +1,68 @@
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  gap: 100px;
+  align-items: center;
+  background-color: #fffcf5;
+}
+
+.introducao h1 {
+  font-family: "Averia Serif Libre", serif;
+  font-size: 5.25rem;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.introducao span {
+  color: #f1603c;
+}
+
+.introducao p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.75rem;
+  text-align: justify;
+  margin-left: 100px;
+  padding-bottom: 20px;
+  display: block;
+  max-width: 740px;
+}
+
+.introducao img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+@media (max-width: 1325px) {
+  .introducao h1,
+  .introducao p {
+    text-align: left;
+    width: 100%;
+    word-spacing: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .introducao {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 40px;
+  }
+  .introducao h1,
+  .introducao p {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .introducao p {
+    font-size: 1.3rem;
+    padding: 0 10px;
+  }
+
+  .introducao img {
+    max-width: 100%;
+    height: auto;
+  }
+}

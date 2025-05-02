@@ -1,0 +1,30 @@
+.contato {
+  width: 100%;
+  background-color: #fffcf5;
+  padding: 100px 0px;
+}
+
+.contato h2 {
+  color: black;
+  margin-left: 3.75rem;
+  font-size: 2.5rem;
+  padding: 10px 0px;
+}
+
+.contato p {
+  font-family: Quicksand, sans-serif;
+  padding: 10px 0px;
+  color: black;
+  margin-left: 3.75rem;
+  font-size: 1.5rem;
+}
+
+.contato p a {
+  text-decoration: none;
+  color: #f1603c;
+  transition: 0.3s;
+}
+
+.contato p a:hover {
+  color: #faad1b;
+}

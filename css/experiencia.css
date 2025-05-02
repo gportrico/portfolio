@@ -1,0 +1,91 @@
+.experiencia {
+  background-color: #344c36;
+  padding: 100px 100px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.experiencia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.techs-h2 h2 {
+  display: grid;
+  gap: 10px;
+  padding-left: 20px;
+  text-align: left;
+  color: #faad1b;
+  font-size: 3rem;
+}
+
+.techs-imgs {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: left;
+}
+
+.techs-imgs img {
+  transition: 0.3s;
+}
+
+.techs-imgs img:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.educacao {
+  display: grid;
+  gap: 10px;
+}
+
+.educacao h2 {
+  text-align: left;
+  color: #faad1b;
+  font-size: 3rem;
+}
+
+.educacao p {
+  font-family: Quicksand, sans-serif;
+  color: #f3f0e3;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.educacao span {
+  color: #faad1b;
+}
+
+@media (max-width: 768px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+  }
+
+  .techs-h2,
+  .educacao {
+    text-align: center;
+    padding: 0;
+  }
+
+  .techs-h2 h2,
+  .educacao h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 0;
+  }
+
+  .techs-imgs {
+    justify-content: center;
+  }
+
+  .educacao p {
+    text-align: center;
+    padding: 0 10px;
+  }
+}

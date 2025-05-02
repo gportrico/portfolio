@@ -1,0 +1,12 @@
+footer {
+  background-color: black;
+  padding: 30px;
+  display: block;
+}
+
+footer p {
+  font-family: Quicksand, sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+  color: white;
+}
