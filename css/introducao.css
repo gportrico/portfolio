@@ -39,7 +39,6 @@
   .introducao h1,
   .introducao p {
     text-align: left;
-    width: 100%;
     word-spacing: 0;
   }
 }
