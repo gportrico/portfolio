@@ -36,9 +36,9 @@
 
 @media (max-width: 768px) {
   .header {
-    flex-direction: column;
+    display: grid;
     align-items: center;
-    text-align: center;
+    justify-content: center;
   }
 
   .header img {
